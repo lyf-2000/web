@@ -1,0 +1,363 @@
+body {
+    background-color: #f1efe3;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin: 0px;
+}
+
+div.inner {
+    width:1000px;
+    margin-right: auto;
+    margin-left: auto;
+    /*凝胶布局的关键代码*/
+}
+
+/*页眉*/
+div#header {
+    height: 323px;
+    background: url(../img/header.jpg) no-repeat;
+}
+
+div#header div#header-1 {
+    width: 330px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 910px;
+}
+
+div#header-1 .wp-nav {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+div#header-1 .nav-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.nav-item .item-name {
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #a3aaa9;
+}
+
+/*导航栏，一共设置了五个页面，点击可链接到其他页面*/
+div#nav {
+    height: 41px;
+    background-color: #d18717;
+    display: block;
+    margin-top: -13px;
+}
+
+.nav-item {
+    display: inline-block;
+    float: left;
+    vertical-align: bottom;
+}
+
+#myself .nav-item .item-name{
+    padding-left: 120px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    font-size: larger;
+}
+
+#myself .nav-item .item-name .mark {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.clearfix { 
+    display: block;
+}
+
+/*第一个板块，是对该页面设置原因的介绍，左文右图*/
+div#container-1 div#cont-1 {
+    width: 1000px;
+    height: 320px;
+    background-color: #fff;
+    float: left;
+    margin-top: 24px;
+    margin-left: 0px;
+}
+
+/*图片的相关格式*/
+#slt{
+    width: 466px;
+    height: 276px;
+    float: right;
+    margin-top: -35px;
+    margin-right: 70px;
+    background-image: url(../img/xin.jpg);
+    background-size: 470px 280px;
+    border: 2px #d18717 dashed;
+    border-radius: 20px;
+}
+
+#cont-1 .tt {
+    height: 40px;
+}
+
+#cont-1 .tit {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#cont-1 .tittle {
+    display: inline-block;
+    color: #d18717;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 65px;
+    font-family: "NSimSun";
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+#cont-1 .zdy {
+    width: 310px;
+    float: left;
+    margin-right: 23px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#cont-1 .zdy .st {
+    color:#333;
+    width: 300px;
+    line-height: 20px;
+    margin-left: 14px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+/*第二个板块是表单，内容是提出建议*/
+div#container-2 {
+    width: 100%;
+    height: 1060px;
+    background-color: #d18717;
+    margin-top: 375px;
+}
+
+div#container-2 div#cont-2 {
+    width: 1000px;
+    height: 1000px;
+    background-color: #f1efe3;
+    float: left;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+/*具体表单格式*/
+.innnerfarme {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 1px;
+    width: 60%;
+}
+
+/*标题的格式*/
+#tittle {
+    border-bottom: 2px solid #d18717 ;
+    color: #666;
+    text-align: center;
+    height: 43px;
+    width: 86%;
+    overflow: hidden;
+    padding-bottom: 10px ;
+    padding-top: 15px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#container {
+    width: 86%;
+    margin-top: 20px;
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+.group {
+    width: 100%;
+    margin: 0 0 2px 0;
+    border: 0 none;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+#loc {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#loc1 {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.group-name {
+    font-size: 16px;
+    font-weight: 1000;
+    color: black;
+}
+
+#container #strongit {
+    text-align: left;
+    padding-left: 10px;
+    color: red;
+}
+
+#group-name1 {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #fff;
+    line-height: 2.0;
+}
+
+#group-name2 {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #fff;
+    line-height: 2.0;
+}
+
+.group-name3 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 2.0;
+}
+
+.group-name4 {
+    font-size: 12px;
+    font-weight: normal;
+    color:rgb(81, 203, 240);
+    line-height: 2.0;
+}
+
+.kuang {
+    padding-left: 12px;
+}
+
+
+#answer {
+    padding: 11px 24px 16px 37px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.square {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.square1 {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#input {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#input1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+#input2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#submit {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    overflow: visible;
+    background-color: #d18717;
+    border: 1px solid #f1efe3;
+    border-radius: 8px;
+}
+
+#inside {
+    padding: 15px 15px;
+    line-height: 2.0;
+    color: #fff;
+    font-weight: bolder;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    border: 1px solid #d18717;
+    margin-bottom: 20px;
+}
+
+/*页脚，采用与页眉相似的深蓝色，内附简单的联系方式*/
+div#footer {
+    height: 60px;
+    background-color: rgb(8, 7, 71);
+}
+
+div#footer div.zdy {
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+div#footer div.zdy div.st {
+    width: 500px;
+    height: 20px;
+    color:rgb(126, 125, 125);
+    line-height: 20px;
+    margin-right: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#myself {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+#myself li {
+    float:left
+}
+
+#myself li a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}

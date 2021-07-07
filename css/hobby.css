@@ -1,0 +1,338 @@
+body {
+    background-color: #f1efe3;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin: 0px;
+}
+
+div.inner {
+    width:1000px;
+    margin-right: auto;
+    margin-left: auto;
+    /*凝胶布局的关键代码*/
+}
+
+/*页眉*/
+div#header {
+    height: 323px;
+    background: url(../img/header.jpg) no-repeat;
+}
+
+div#header div#header-1 {
+    width: 330px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 910px;
+}
+
+div#header-1 .wp-nav {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+div#header-1 .nav-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.nav-item .item-name {
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #a3aaa9;
+}
+
+/*导航栏，一共设置了五个页面，点击可链接到其他页面*/
+div#nav {
+    height: 41px;
+    background-color: #d18717;
+    display: block;
+    margin-top: -13px;
+}
+
+.nav-item {
+    display: inline-block;
+    float: left;
+    vertical-align: bottom;
+}
+
+#myself .nav-item .item-name{
+    padding-left: 120px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    font-size: larger;
+}
+
+#myself .nav-item .item-name .mark {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.clearfix { 
+    display: block;
+}
+
+/*第一个板块，简介自己的爱好，同时附一张图片*/
+div#container-1 div#cont-1 {
+    width: 1000px;
+    height: 320px;
+    background-color: #fff;
+    float: left;
+    margin-top: 24px;
+    margin-left: 0px;
+}
+
+/*左边的图片设置*/
+#slt{
+    width: 470px;
+    height: 280px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-image: url(../img/techang.jpg);
+    background-size: 470px 280px;
+    border-radius: 20px;
+}
+
+#cont-1 .tt {
+    height: 40px;
+}
+
+#cont-1 .tit {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#cont-1 .tittle {
+    display: inline-block;
+    color: #d18717;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 35px;
+    font-family: "NSimSun";
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+#cont-1 .zdy {
+    width: 310px;
+    float: left;
+    margin-right: 23px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#cont-1 .zdy .st {
+    color:#333;
+    width: 300px;
+    line-height: 20px;
+    margin-left: 14px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+/*第三个板块，是表格，介绍自己的兴趣爱好和进一步详细内容*/
+div#container-2 {
+    width: 100%;
+    height: 1100px;
+    background-color: #d18717;
+    margin-top: 375px;
+}
+
+div#container-2 div#cont-2 {
+    width: 1000px;
+    height: 1040px;
+    background-color: #f1efe3;
+    float: left;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+/*这里设置的是侧边导航栏，将兴趣爱好分为了几个部分*/
+div#cont-2 div#cont-menu {
+    width: 210px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+div#cont-2 div#cont-menu .menu-list {
+    border-top: none;
+    border-bottom: none;
+    width: 150px;
+}
+
+div#cont-2 div#cont-menu .list-item {
+    display: block;
+    width: 100%;
+    vertical-align: bottom;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+/*当前选择的表单要突出，因此设置成不一样的格式*/  
+div#cont-2 div#cont-menu .list-item .item-name {
+    color: #d18717;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+div#cont-2 div#cont-menu .list-item1 {
+    display: block;
+    width: 130px;
+    vertical-align: bottom;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    background: #d18717;
+}
+
+/*具体内容（表格）*/
+div#cont-2 div#cont-news {
+    width: 650px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 35px;
+    min-height: 650px;
+}
+
+div#cont-news .menu-list {
+    border-top: none;
+    border-bottom: none;
+}
+
+/*类名突出，下方设置表格*/
+div#cont-news .menu-list .list-item {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    width: 650px;
+    line-height: 0;
+    color: #b67617;
+    border-bottom: 1px solid #ccc;
+    margin-top: -15px;
+    margin-left: -40px;
+}
+
+div#cont-news .menu-list #path {
+    display: inline-block;
+    float: right;
+    white-space: nowrap;
+    height: 18px;
+    line-height: 18px;
+    margin-top: -35px;
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+div#cont-news .menu-list #path .possplit {
+    background-image: url(../img/possplit.gif);
+    background-repeat: no-repeat;
+    text-indent: 22px;
+    background-position: center;
+    width: 10px;
+    display: inline-block;
+    border: 0px solid red;
+}
+
+div#cont-news div#cont-news-list {
+    margin-top: 55px;
+}
+
+div#cont-news div#cont-news-list div#entry {
+    width: 100%;
+    line-height: 2.0;
+    font-size: 14px;
+    color: #fff;
+    overflow: hidden;
+}
+
+/*对于表格的设置格式*/
+#table2 {
+    margin-top: 45px;
+}
+
+table {
+    border: solid #fff;
+    border-width: 1px 0px 0px 1px;
+    background: #f1efe3;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td {
+    border: solid #fff;
+    border-width: 0px 1px 1px 0px;
+    padding: 2px 10px;
+    display: table-cell;
+    vertical-align: inherit
+}
+
+.more {
+    color: #d18717;
+    float:right;
+    height: 30px;
+    padding-right: 40px;
+    padding-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*页脚，采用与页眉相似的深蓝色，内附简单的联系方式*/
+div#footer {
+    height: 60px;
+    background-color: rgb(8, 7, 71);
+}
+
+div#footer div.zdy {
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+div#footer div.zdy div.st {
+    width: 500px;
+    height: 20px;
+    color:rgb(126, 125, 125);
+    line-height: 20px;
+    margin-right: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#myself {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+#myself li {
+    float:left
+}
+
+#myself li a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}

@@ -1,0 +1,412 @@
+body {
+    background-color: #f1efe3;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin: 0px;
+}
+
+div.inner {
+    width:1000px;
+    margin-right: auto;
+    margin-left: auto;
+    /*凝胶布局的关键代码*/
+}
+
+/*页眉*/
+div#header {
+    height: 323px;
+    background: url(../img/header.jpg) no-repeat;
+}
+
+div#header div#header-1 {
+    width: 330px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 910px;
+}
+
+div#header-1 .wp-nav {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+div#header-1 .nav-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.nav-item .item-name {
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #a3aaa9;
+}
+
+/*导航栏，一共设置了五个页面，点击可链接到其他页面*/
+div#nav {
+    height: 41px;
+    background-color: #d18717;
+    display: block;
+    margin-top: -13px;
+}
+
+.nav-item {
+    display: inline-block;
+    float: left;
+    vertical-align: bottom;
+}
+
+#myself .nav-item .item-name{
+    padding-left: 120px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    font-size: larger;
+}
+
+#myself .nav-item .item-name .mark {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.clearfix { 
+    display: block;
+}
+
+/*第一个板块，简介上学经历，同时附左右两张图片（自己制作）*/
+div#container-1 div#cont-1 {
+    width: 1000px;
+    height: 320px;
+    background-color: #fff;
+    float: left;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+/*左边的图片设置*/
+#slt{
+    width: 240px;
+    height: 280px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-image: url(../img/qu.jpg);
+    background-size: 250px 270px;
+}
+
+#cont-1 .tt {
+    height: 40px;
+}
+
+#cont-1 .tit {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#cont-1 .tittle {
+    display: inline-block;
+    color: #d18717;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 35px;
+    font-family: "NSimSun";
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+#cont-1 .zdy {
+    width: 310px;
+    float: left;
+    margin-right: 23px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#cont-1 .zdy .st {
+    color:#333;
+    width: 300px;
+    line-height: 20px;
+    margin-left: 14px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+/*右边的图片设置*/
+#slt1{
+    width: 260px;
+    height: 280px;
+    float: right;
+    margin-right: 60px;
+    margin-top: -50px;
+    background-image: url(../img/han.jpg);
+    background-size: 250px 270px;
+}
+
+/*第二个板块，小学经历，左右布局*/
+div#container-2 {
+    width: 100%;
+    height: 380px;
+    background-color: #d18717;
+    margin-top: 375px;
+}
+
+div#container-2 div#cont-2 {
+    width: 1000px;
+    height: 320px;
+    background-color: #f1efe3;
+    float: left;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+/*学校的图片一张*/
+#cont-2 .slt2{
+    width: 360px;
+    height: 280px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 60px;
+    background-image: url(../img/wuyi.jpg);
+    border-radius: 20px;
+}
+
+#cont-2 .tt {
+    height: 40px;
+}
+
+#cont-2 .tit {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+#cont-2 .tittle {
+    display: inline-block;
+    color: #d18717;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 35px;
+    font-family: "NSimSun";
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+#cont-2 .zdy {
+    width: 410px;
+    float: left;
+    margin-right: 23px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#cont-2 .zdy .st {
+    color:#333;
+    width: 400px;
+    line-height: 20px;
+    margin-left: 16px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+/*第三个板块，中学因为直升，所以设置成一个板块*/
+div#container-3{
+    width: 100%;
+    height: 380px;
+    background-color: #f1efe3;
+    margin-top: 0px;
+}
+
+/*初中部分，左右布局*/
+div#container-3 div#cont-top {
+    width: 1000px;
+    height: 320px;
+    background-color: #d18717;
+    float: left;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+#cont-top .slt2{
+    width: 360px;
+    height: 280px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 100px;
+    background-image: url(../img/chuzhong.jpg);
+    border-radius: 20px;
+}
+
+#container-3 .tt {
+    height: 40px;
+}
+
+#container-3 .tit {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+#container-3 .tittle {
+    display: inline-block;
+    color: #f1efe3;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    font-family: "NSimSun";
+    font-weight: bolder;
+    margin-left: 60px;
+}
+
+#container-3 .zdy {
+    width: 410px;
+    float: left;
+    margin-right: 23px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+#container-3 .zdy .st {
+    color:#f1efe3;
+    width: 400px;
+    line-height: 20px;
+    margin-left: 16px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+/*高中部分，左右布局，中间用不同颜色隔开，但是内部设置一致*/
+div#container-3 div#cont-bottom {
+    width: 1000px;
+    height: 320px;
+    background-color: #d18717;
+    float: left;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+#cont-bottom .slt2{
+    width: 360px;
+    height: 280px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 100px;
+    background-image: url(../img/gaozhong.jpg);
+    border-radius: 20px;
+}
+
+/*第四板块，大学部分，左右布局，与上一板块区别开，且图片与文字位置变换*/
+div#container-4 {
+    width: 100%;
+    height: 380px;
+    background-color: #d18717;
+    margin-top: 350px;
+}
+
+div#container-4 div#cont-4 {
+    width: 1000px;
+    height: 320px;
+    background-color: #f1efe3;
+    float: left;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+#cont-4 .slt2{
+    width: 360px;
+    height: 280px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 60px;
+    background-image: url(../img/daxue.jpg);
+    border-radius: 20px;
+}
+
+#cont-4 .tt {
+    height: 40px;
+}
+
+#cont-4 .tit {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+#cont-4 .tittle {
+    display: inline-block;
+    color: #d18717;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 35px;
+    font-family: "NSimSun";
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+#cont-4 .zdy {
+    width: 410px;
+    float: left;
+    margin-right: 23px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#cont-4 .zdy .st {
+    color:#333;
+    width: 400px;
+    line-height: 20px;
+    margin-left: 16px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+/*页脚，采用与页眉相似的深蓝色，内附简单的联系方式*/
+div#footer {
+    margin-top: 0px;
+    height: 60px;
+    background-color: rgb(8, 7, 71);
+}
+
+div#footer div.zdy {
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+div#footer div.zdy div.st {
+    width: 500px;
+    height: 20px;
+    color:rgb(126, 125, 125);
+    line-height: 20px;
+    margin-right: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#myself {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+#myself li {
+    float:left
+}
+
+#myself li a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}

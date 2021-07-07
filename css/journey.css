@@ -1,0 +1,496 @@
+body {
+    background-color: #f1efe3;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin: 0px;
+}
+
+div.inner {
+    width:1000px;
+    margin-right: auto;
+    margin-left: auto;
+    /*凝胶布局的关键代码*/
+}
+
+/*页眉*/
+div#header {
+    height: 323px;
+    background: url(../img/header.jpg) no-repeat;
+}
+
+div#header div#header-1 {
+    width: 330px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 910px;
+}
+
+div#header-1 .wp-nav {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+div#header-1 .nav-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.nav-item .item-name {
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #a3aaa9;
+}
+
+/*导航栏，一共设置了五个页面，点击可链接到其他页面*/
+div#nav {
+    height: 41px;
+    background-color: #d18717;
+    display: block;
+    margin-top: -13px;
+}
+
+.nav-item {
+    display: inline-block;
+    float: left;
+    vertical-align: bottom;
+}
+
+#myself .nav-item .item-name{
+    padding-left: 120px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    font-size: larger;
+}
+
+#myself .nav-item .item-name .mark {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.clearfix { 
+    display: block;
+}
+
+/*第一个板块，简介山西，同时附左右两张图片*/
+div#container-1 div#cont-1 {
+    width: 1000px;
+    height: 320px;
+    background-color: #fff;
+    float: left;
+    margin-top: 24px;
+    margin-left: 0px;
+}
+
+/*左边的图片设置*/
+#slt{
+    width: 240px;
+    height: 280px;
+    float: left;
+    margin-top: 10px;
+    margin-left: -10px;
+    background-image: url(../img/map.jfif);
+    background-size: 250px 270px;
+}
+
+#cont-1 .tt {
+    height: 40px;
+}
+
+#cont-1 .tit {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*标题的设置，字体大小，颜色，位置等*/
+#cont-1 .tittle {
+    display: inline-block;
+    color: #d18717;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 35px;
+    font-family: "NSimSun";
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+/*内容位置的设置*/
+#cont-1 .zdy {
+    width: 310px;
+    float: left;
+    margin-right: 23px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/*内容字体的设置，大小，颜色等等*/
+#cont-1 .zdy .st {
+    color:#333;
+    width: 300px;
+    line-height: 20px;
+    margin-left: 14px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+/*右边图片的设置*/
+#slt1{
+    width: 260px;
+    height: 280px;
+    float: right;
+    margin-right: 60px;
+    margin-top: -50px;
+    background-image: url(../img/map1.jfif);
+    background-size: 250px 270px;
+}
+
+/*第二个板块，介绍山西美食*/
+/*设置位置，背景颜色等等*/
+div#container-2 {
+    height: 290px;
+    background-color: #d18717;
+    margin-top: 370px;
+    padding-top: 20px;
+}
+
+div#container-2 div.inner div.titt {
+    width: 50px;
+    height: 130px;
+    margin-right: 105px;
+    display: inline-block;
+    float: left;
+    margin-top: 50px;  
+    margin-left: 60px; 
+}
+
+div#container-2 div.inner div.titt div.titt-name {
+    height: 130px;
+    line-height: 30px;
+    background-color: #f1efe3;
+    color: #d18717;
+    font-size: 18px;
+    font-family: "NSinSun";
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+#container-2 .zdy {
+    width: 310px;
+    float: left;
+    margin-right: 23px;
+    margin-left: -80px;
+    margin-top: 30px;
+}
+
+div#container-2 .zdy .st {
+    color: #f1efe3;
+    width: 280px;
+    line-height: 20px;
+    margin-left: 14px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+div.inner div.pic {
+    height: 260px;
+    width: 420px;
+    margin-left: 500px;
+    margin-top: 5px;
+    border: 1px #f1efe3 dashed;
+    border-radius: 20px;
+}
+
+/*图片位置的摆放*/
+div.inner div.pic div.pict {
+    height: 120px;
+    width: 200px;
+    background-image: url(../img/5.jpg);
+    border-radius: 20px;
+}
+
+div.inner div.pic div.pict1 {
+    height: 120px;
+    width: 200px;
+    background-image: url(../img/1.jpg);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+div.inner div.pic div.pict2 {
+    height: 120px;
+    width: 200px;
+    background-image: url(../img/4.jpg);
+    border-radius: 20px;
+    margin-top: -260px;
+    margin-left: 220px;
+}
+
+div.inner div.pic div.pict3 {
+    height: 120px;
+    width: 200px;
+    background-image: url(../img/3.jpg);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+/*第三个板块，介绍山西美景，格式布局以及颜色与上一板块区别开来*/
+div#container-3 {
+    height: 290px;
+    background-color: #f1efe3;
+    padding-top: 20px;
+}
+
+div#container-3 div.inner div.titt {
+    width: 50px;
+    height: 130px;
+    margin-right: 105px;
+    display: inline-block;
+    float: left;
+    margin-top: 50px;  
+    margin-left: 870px; 
+}
+
+div#container-3 div.inner div.titt div.titt-name {
+    height: 130px;
+    line-height: 30px;
+    background-color: #d18717;
+    color: #f1efe3;
+    font-size: 18px;
+    font-family: "NSinSun";
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+#container-3 .zdy {
+    width: 310px;
+    float: left;
+    margin-right: 23px;
+    margin-left: 500px;
+    margin-top: -150px;
+}
+
+#container-3 .zdy .st {
+    color: #d18717;
+    width: 280px;
+    line-height: 20px;
+    margin-left: 35px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+div#container-3 div.inner div.pic {
+    height: 260px;
+    width: 430px;
+    margin-left: 60px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-image: url(../img/psc.jpg);
+}
+
+/*第四个板块，介绍山西艺术，格式布局以及颜色与第二板块相同*/
+div#container-4 {
+    height: 290px;
+    background-color: #d18717;
+    padding-top: 20px;
+}
+
+div#container-4 div.inner div.titt {
+    width: 50px;
+    height: 130px;
+    margin-right: 105px;
+    display: inline-block;
+    float: left;
+    margin-top: 50px;  
+    margin-left: 60px; 
+}
+
+div#container-4 div.inner div.titt div.titt-name {
+    height: 130px;
+    line-height: 30px;
+    background-color: #f1efe3;
+    color: #d18717;
+    font-size: 18px;
+    font-family: "NSinSun";
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+#container-4 .zdy {
+    width: 310px;
+    float: left;
+    margin-right: 23px;
+    margin-left: -80px;
+    margin-top: 30px;
+}
+
+#container-4 .zdy .st {
+    color: #f1efe3;
+    width: 280px;
+    line-height: 20px;
+    margin-left: 14px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+div.inner div.pic div.pict4 {
+    height: 120px;
+    width: 200px;
+    background-image: url(../img/chuang.jpg);
+    border-radius: 20px;
+    margin-top: 140px;
+}
+
+div.inner div.pic div.pict5 {
+    height: 120px;
+    width: 200px;
+    background-image: url(../img/luo.jpg);
+    border-radius: 20px;
+    margin-top: -260px;
+    margin-left: 110px;
+}
+
+div.inner div.pic div.pict6 {
+    height: 120px;
+    width: 200px;
+    background-image: url(../img/mian.jpg);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+/*第五个板块，介绍山西戏曲，格式布局以及颜色与第三板块相同*/
+div#container-5 {
+    height: 290px;
+    background-color: #f1efe3;
+    padding-top: 20px;
+}
+
+div#container-5 div.inner div.titt {
+    width: 50px;
+    height: 130px;
+    margin-right: 105px;
+    display: inline-block;
+    float: left;
+    margin-top: 50px;  
+    margin-left: 870px; 
+}
+
+div#container-5 div.inner div.titt div.titt-name {
+    height: 130px;
+    line-height: 30px;
+    background-color: #d18717;
+    color: #f1efe3;
+    font-size: 18px;
+    font-family: "NSinSun";
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+#container-5 .zdy {
+    width: 310px;
+    float: left;
+    margin-right: 23px;
+    margin-left: 500px;
+    margin-top: -180px;
+}
+
+#container-5 .zdy .st {
+    color: #d18717;
+    width: 280px;
+    line-height: 20px;
+    margin-left: 35px;
+    text-indent: 2em;
+    padding-left: 10px;
+}
+
+div#container-5 div.inner div.pic {
+    height: 260px;
+    width: 430px;
+    margin-left: 60px;
+    margin-top: 5px;
+    border: 1px #d18717 dashed;
+    border-radius: 20px;
+}
+
+div.inner div.pic div.pict7 {
+    height: 130px;
+    width: 210px;
+    background-image: url(../img/daxi.jpg);
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+div.inner div.pic div.pict8 {
+    height: 130px;
+    width: 210px;
+    background-image: url(../img/xiaoxi.jpg);
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 220px;
+}
+
+/*页脚，采用与页眉相似的深蓝色，内附简单的联系方式*/
+div#footer {
+    height: 60px;
+    background-color: rgb(8, 7, 71);
+}
+
+div#footer div.zdy {
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+div#footer div.zdy div.st {
+    width: 500px;
+    height: 20px;
+    color:rgb(126, 125, 125);
+    line-height: 20px;
+    margin-right: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#myself {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+#myself li {
+    float:left
+}
+
+#myself li a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
